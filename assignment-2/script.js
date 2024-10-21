@@ -1,8 +1,8 @@
 // Select the necessary DOM elements
-const number1 = document.getElementById(''); 
-const number2 = document.getElementById(''); 
-const calculateButton = document.getElementById(''); 
-const answer = document.getElementById(''); 
+const number1 = document.getElementById('number1'); 
+const number2 = document.getElementById('number2'); 
+const calculateButton = document.getElementById('calculateButton'); 
+const answer = document.getElementById('answer'); 
 
 calculateButton.addEventListener('click', calculate);
 
